@@ -30,10 +30,10 @@ p{
     padding: 160px 20px;
     margin: 0;
 }
-.about-section{
+.content-container{
     padding: 160px 20px;
 }
-.about-section-content{
+.content{
     margin: 30px;
 }
 .hero p{
@@ -48,13 +48,21 @@ p{
     font-size: 24px;
     line-height: 1.5;
 }
-.about-section h1{
+.content h1{
     font-size: 64px;
     line-height: 80px;
 }
-.about-section h2{
+.content h2{
     font-size: 18px;
     font-family: var(--defoult-font-family);
+}
+.content h3{
+    font-size: 24px;
+    font-family: var(--defoult-font-family);
+    line-height: 1.5;
+}
+.content p{
+    font-size: 14px;
 }
 .btn-branding{
     color: white;
@@ -91,7 +99,7 @@ p{
         font-size: 42px;
     
     }
-    .about-section{
+    .content-container{
         padding: 0;
         text-align: center;
     }
